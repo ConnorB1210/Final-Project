@@ -1,0 +1,16 @@
+h1 {
+    color: red;
+    text-align: center;
+  }
+  .navbar {
+   text-align: center;
+  }
+  .navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px 100px;
+    grid-gap: 0px;
+  }
+.navpage1 {
+  width: 200px ;
+}
