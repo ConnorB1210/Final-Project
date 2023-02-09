@@ -2,15 +2,39 @@ h1 {
     color: red;
     text-align: center;
   }
+  h2 {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+  }
   .navbar {
-   text-align: center;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    margin: auto;
+   
+    justify-content: center;
+    
+   
+  
+  }
+  .navbar > div > a {
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+   
+  
+  .navbar > div:hover {
+    background-color: bisque;
   }
   .navbar {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 40px 100px;
-    grid-gap: 0px;
+    grid-gap: 200px;
   }
-.navpage1 {
-  width: 200px ;
-}
+   
+ 
