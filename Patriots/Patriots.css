@@ -1,0 +1,35 @@
+h1 {
+    color:navy;
+    font-size: 300%;
+    text-align:center
+  }
+  p {
+    color:navy;
+    font-family: courier;
+    font-size: 300%;
+  }
+  .example {
+      text-align: right;
+      }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  a:link {
+    color: navy;
+    background-color: transparent;
+    text-decoration: underline;
+    font-family: courier;
+    font-size: 200%;
+  }
+  a:visited {
+    color: navy;
+    background-color: transparent;
+    text-decoration: underline;
+    font-family: courier;
+    font-size: 200%;
+  }
+  

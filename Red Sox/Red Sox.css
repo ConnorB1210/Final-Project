@@ -1,0 +1,36 @@
+
+h1 {
+    color:white;
+    font-size: 300%;
+    text-align:center  
+  }
+  p {
+    color:white;
+    font-family: courier;
+    font-size: 300%;
+  }
+  .example {
+      text-align: right;
+      }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+    font-family: courier;
+    font-size: 200%;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+    font-family: courier;
+    font-size: 200%;
+  }
+  

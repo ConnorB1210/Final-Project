@@ -1,11 +1,12 @@
 h1 {
-    color: red;
+    color: black;
     text-align: center;
+    font-size: 300%;
   }
   h2 {
     text-align: center;
     position: relative;
-    bottom: 100px;
+    bottom: 30px;
   }
   .navbar {
     display: flex;
@@ -15,25 +16,12 @@ h1 {
     margin: auto;
    
     justify-content: center;
-    
-   
-  
-  }
-  .navbar > div > a {
-    padding: 10px 12px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-   
-  
-  .navbar > div:hover {
-    background-color: bisque;
   }
   .navbar {
+    position:relative; right:0px; top:15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 40px 100px;
+    grid-template-rows: 100px 100px;
     grid-gap: 200px;
   }
    
